@@ -21,7 +21,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Add upstream remote
-        run: git remote add upstream https://github.com/langgenius/dify.git
+        run: git remote add upstream https://github.com/tjtanjin/react-chatbotify.git
 
       - name: Fetch upstream
         run: git fetch upstream
